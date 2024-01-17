@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .pad{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+  .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./images/background-fluid.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .login-form{
+    max-width: 350px;
+    padding: 28px;
+    margin: 0 28px;
+    background-color: rgba(51, 51, 51, 0.8); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  .heading{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 7px;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .input-box input{
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 95%;
+    background: transparent;
+    border-bottom:1px solid aqua;
+    color: rgb(255, 255, 255);
+  }
+  .input-box input::placeholder{
+    color: white;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    
+  }
+  
+  .button button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  
+  .button button:hover {
+    opacity: 0.8;
+  }
+  
+  .msg{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .msg a{
+    color: aqua;
+    text-decoration: none;
+    
+  }
+  .user-exists{
+    text-align: center;
+    color: red;
+  }
+  
+  @media (max-width: 767px) {
+    .input-box{
+      width: 100%;
+    }
+    .input-box:nth-child(n){
+      justify-content: start;
+    }
+    }

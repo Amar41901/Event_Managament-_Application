@@ -1,0 +1,148 @@
+.xyz {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+
+
+
+/* Update profile */
+.updateProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #f4f4f4;
+}
+
+.profile {
+  background-color: #9f9f9f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profileImg img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.update-box {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.update-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.update-box input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.profile button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 10px;
+  color: #0035ff;
+  font-weight: bold;
+}
+
+
+/* create event  and update event*/
+
+
+
+.create-event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 15px;
+  background: linear-gradient(to right, #ADF7F2, #15AAFF);
+}
+
+.event-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.fileselection input{
+  background: white;
+}
+.event-form input,
+.event-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.event-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 auto;
+  display: block;
+}
+
+.event-form button:hover {
+  background-color: #0056b3;
+}
+
+.acard-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+}
+
+.search-event-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.amar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.search-button{
+  display: flex;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: auto;
+}
